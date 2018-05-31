@@ -32,6 +32,7 @@ goog.provide('i18n.phonenumbers.metadata');
  */
 i18n.phonenumbers.metadata.countryCodeToRegionCodeMap = {
 1:["US","AG","AI","AS","BB","BM","BS","CA","DM","DO","GD","GU","JM","KN","KY","LC","MP","MS","PR","SX","TC","TT","VC","VG","VI"]
+}
 
 /**
  * A mapping from a region code to the PhoneMetadata for that region.
