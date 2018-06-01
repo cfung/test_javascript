@@ -26,7 +26,7 @@ goog.provide('i18n.phonenumbers.PhoneNumberDesc');
 goog.provide('i18n.phonenumbers.PhoneMetadata');
 goog.provide('i18n.phonenumbers.PhoneMetadataCollection');
 
-goog.require('goog.proto2.Message');
+//goog.require('goog.proto2.Message');
 
 
 
@@ -37,9 +37,10 @@ goog.require('goog.proto2.Message');
  * @final
  */
 i18n.phonenumbers.NumberFormat = function() {
-  goog.proto2.Message.call(this);
+  //goog.proto2.Message.call(this);
 };
-goog.inherits(i18n.phonenumbers.NumberFormat, goog.proto2.Message);
+//goog.inherits(i18n.phonenumbers.NumberFormat, goog.proto2.Message);
+goog.inherits(i18n.phonenumbers.NumberFormat);
 
 
 /**
