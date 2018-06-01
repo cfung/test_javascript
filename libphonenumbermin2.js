@@ -18,9 +18,8 @@
 */
 var i18n = {phonenumbers:{}};
 i18n.phonenumbers.NumberFormat = function() {
-  goog.proto2.Message.call(this);
 };
-goog.inherits(i18n.phonenumbers.NumberFormat, goog.proto2.Message);
+goog.inherits(i18n.phonenumbers.NumberFormat);
 i18n.phonenumbers.NumberFormat.descriptor_ = null;
 i18n.phonenumbers.NumberFormat.prototype.getPattern = function() {
   return this.get$Value(1);
